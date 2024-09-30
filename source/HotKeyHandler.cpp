@@ -92,7 +92,7 @@ bool CHotKeyHandler::ParseHotKeyString(const CString &hotKeyStr, UINT &key, UINT
             CString keyStr(token);
             key = KeyboardUtils::StringToKeyCode(keyStr);
             if (key == KeyboardUtils::UNDEFINED_KEYCODE) {
-                MessageBoxUtil::Show(m_hwnd, L"输入的快捷键错误", true);
+                MessageBoxUtil::Show(m_hwnd, L"hotkey is incorrect", true);
                 return false;
             }
             key = KeyboardUtils::StringToKeyCode(keyStr) & 0xFF;

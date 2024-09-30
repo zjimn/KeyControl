@@ -51,8 +51,8 @@ void CTrayIconManager::ShowContextMenu() {
         return;
     CMenu menu;
     menu.CreatePopupMenu();
-    menu.AppendMenu(MF_STRING, ID_TRAY_OPEN, _T("打开"));
-    menu.AppendMenu(MF_STRING, ID_TRAY_EXIT, _T("退出"));
+    menu.AppendMenu(MF_STRING, ID_TRAY_OPEN, _T("open"));
+    menu.AppendMenu(MF_STRING, ID_TRAY_EXIT, _T("quit"));
     POINT pt;
     GetCursorPos(&pt);
     SetForegroundWindow(m_pParentWnd->GetSafeHwnd());

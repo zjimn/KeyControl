@@ -1,15 +1,15 @@
-安装完成，你现在可以开始使用了，以下是一些使用提示：
+Installation is complete, and you can now start using the application. Here are some usage tips:
 
-1. **启动程序**  
-   你可以通过桌面快捷方式或开始菜单中的应用图标来启动
+1. **Launch the Program**  
+   You can start the application using the desktop shortcut or the app icon in the Start menu.
 
-2. **配置设置**  
-   启动后，你可以通过设置对话框配置热键。在输入热键栏，你可以使用多个修饰键开头（Shift、Ctrl、Alt）与一个按键组合，或者仅使用一个非修饰键。映射按键栏则没有限制
+2. **Configure Settings**  
+   After launching, you can configure the hotkeys through the settings dialog. In the hotkey input field, you can use multiple modifier keys (Shift, Ctrl, Alt) combined with a single key, or just one non-modifier key. There are no restrictions in the key mapping field.
 
-3. **使用功能**  
-   选择需要操作的窗口后，点击右上角的开始图标激活热键映射功能。根据设置的热键，你可以进行按键映射操控。点击停止按钮可以停止热键映射
+3. **Use Features**  
+   After selecting the window you want to operate on, click the start icon in the top right corner to activate the hotkey mapping feature. You can perform key mapping operations based on the set hotkeys. Click the stop button to halt hotkey mapping.
 
-4. **更多操作**  
-   使用左上角的搜索框查找所需窗口，点击右下角的退出按钮可以退出程序
+4. **More Operations**  
+   Use the search box in the top left corner to find the desired window, and click the exit button in the bottom right corner to close the program.
 
-祝你体验愉快
+Enjoy your experience!

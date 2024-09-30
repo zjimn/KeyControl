@@ -1,16 +1,16 @@
-感谢你下载 键控助手！在你开始安装之前，请注意以下事项：
+Thank you for downloading KeyControl Assistant! Before you begin the installation, please note the following:
 
-1. **关闭其他应用程序**  
-   为了确保安装过程顺利进行，请关闭所有正在运行的应用程序
+1. **Close Other Applications**
+   To ensure a smooth installation process, please close all running applications.
 
-2. **检查系统要求**  
-   确保你的系统符合以下要求：
-   - 操作系统：Windows 7 SP1 及更高版本
-   - 磁盘空间：至少 5 MB
+2. **Check System Requirements**
+   Ensure your system meets the following requirements:
+   - Operating System: Windows 7 SP1 or higher
+   - Disk Space: At least 5 MB
 
-3. **了解安装选项**  
-   在安装过程中，你可选择安装位置和附加设置。请根据需要进行选择
+3. **Understand Installation Options**
+   During the installation, you can choose the installation location and additional settings. Please make selections as needed.
 
-4. **安装过程**  
-   - 点击“下一步”以继续安装
-   - 如果你希望取消安装，请点击“取消”
+4. **Installation Process**
+   - Click “Next” to continue the installation.
+   - If you wish to cancel the installation, please click “Cancel”

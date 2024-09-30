@@ -1,6 +1,6 @@
 ﻿#pragma once
 #ifndef __AFXWIN_H__
-#error "在包含此文件之前包含 'pch.h' 以生成 PCH"
+#error "Including 'pch.h' before this file is required to generate the PCH"
 #endif
 
 class CKeyControlApp : public CWinApp {

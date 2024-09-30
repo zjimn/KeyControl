@@ -1,9 +1,24 @@
-这是一个免费且无负担的软件，已发布为公有领域。
+This is free and unencumbered software released into the public domain.
 
-任何人都可以复制、修改、发布、使用、编译、销售或以任何方式分发该软件，无论是源代码形式还是已编译的二进制形式，目的可以是商业或非商业的。
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
 
-在承认版权法的司法管辖区内，软件的作者将其对该软件的任何和所有版权利益奉献给公有领域。我们做出这一奉献是为了大众的利益，而不是为了我们的继承人和继任者的利益。我们打算这个奉献是一个公开的行为，永久性地放弃所有目前和未来根据版权法对该软件的权利。
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
 
-该软件是“按现状”提供的，未提供任何形式的担保，无论是明示还是暗示，包括但不限于对适销性、特定用途的适用性和不侵权的担保。在任何情况下，作者均不对因使用该软件或其他交易而产生的任何索赔、损害或其他责任负责，无论是在合同、侵权或其他方面。
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 
-欲了解更多信息，请参阅 https://unlicense.org。
+For more information, please refer to <https://unlicense.org>

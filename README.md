@@ -1,36 +1,36 @@
-﻿# 键控助手
+# KeyControl Software
 
-[中文文档](README.md)
-[English Doc](README_EN.md)
+[English Doc](README.md)
+[中文文档](README_ZN.md)
 
-这款软件旨在帮助用户通过热键控制其他窗口，提升工作效率，减少操作流程中的干扰。
+This software is designed to help users control other windows using hotkeys, improving work efficiency and reducing interruptions during workflow.
 
-## 功能概述
+## Overview
 
-在使用电脑时，我们常常需要同时控制多个窗口，比如在观看视频或教程时记录关键信息。这款软件提供了快捷键控制功能，让你在不通过鼠标切换窗口的情况下，轻松操作其他窗口。
+While using a computer, we often need to manage multiple windows simultaneously, such as watching videos or tutorials while taking notes on key information. This software provides a hotkey control feature that allows you to operate other windows without switching contexts.
 
-## 主要功能
+## Features
 
-- **快捷键控制**: 通过热键轻松控制其他窗口，无需离开当前工作界面。
-- **窗口选择**: 在软件左侧的窗口列表中选择需要控制的窗口。
-- **热键配置**: 自定义热键，快速暂停、播放、后退或快进视频。
+- **Hotkey Control**: Easily control other windows with hotkeys without leaving your current working interface.
+- **Window Selection**: Select the window you want to control from the list on the left side of the software.
+- **Hotkey Configuration**: Customize your hotkeys for quick pause, play, rewind, or fast-forward of videos.
 
-## 使用说明
+## Usage Instructions
 
-1. **打开软件**: 启动软件后，在左侧窗口列表中选择需要控制的窗口。
-2. **搜索窗口**: 使用上方的输入框快速查找窗口。
-3. **设置热键**:
-   - 点击引导点击的红色按钮，弹出热键配置窗口。
-   - 定义你的热键，比如设置输入热键为 `Shift + 空格键` 以控制视频播放。
-   - 点击保存，软件会向系统注册全局热键。
-4. **控制窗口**: 在工作窗口中按下你定义的快捷键，即可暂停或播放视频。
+1. **Open the Software**: After launching the software, select the window you want to control from the list on the left.
+2. **Search for Windows**: Use the input box at the top to quickly find a window.
+3. **Set Hotkeys**:
+   - Click the red button that guides you to open the hotkey configuration window.
+   - Define your hotkeys, such as setting the input hotkey to `Shift + Space` to control video playback.
+   - Click save; the software will register the global hotkey with the system.
+4. **Control the Window**: Press your defined hotkey in the working window to pause or play the video.
 
-## 示例热键设置
+## Example Hotkey Settings
 
-- `Shift + 空格键`：播放/暂停视频
-- `Shift + Q`：后退
-- `Shift + W`：快进
+- `Shift + Space`: Play/Pause video
+- `Shift + Q`: Rewind
+- `Shift + W`: Forward
 
-## 许可证
+## License
 
-该项目遵循MIT许可证。有关详细信息，请查看 [LICENSE](LICENSE.txt) 文件。
+This project is licensed under the MIT License. For more details, please see the [LICENSE](LICENSE.txt) file.

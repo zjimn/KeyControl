@@ -208,8 +208,8 @@ void CSettingsDlg::CreateTitleBg() {
         DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, _T("Microsoft YaHei"));
     CRect backgroundRect(50, 40, 550, 80);
     m_staticBackground.Create(_T(""), WS_CHILD | WS_VISIBLE | SS_NOTIFY, backgroundRect, this, IDC_TITLE_STATIC_ID);
-    m_staticInput.Create(_T("输入热键"), WS_CHILD | WS_VISIBLE | SS_CENTER, CRect(48, 0, 153, 40), &m_staticBackground);
-    m_staticMap.Create(_T("映射按键"), WS_CHILD | WS_VISIBLE | SS_CENTER, CRect(348, 0, 448, 40), &m_staticBackground);
+    m_staticInput.Create(_T("Hotkey"), WS_CHILD | WS_VISIBLE | SS_CENTER, CRect(48, 0, 153, 40), &m_staticBackground);
+    m_staticMap.Create(_T("Map Key"), WS_CHILD | WS_VISIBLE | SS_CENTER, CRect(348, 0, 448, 40), &m_staticBackground);
     m_staticInput.SetCustomFont(pFont);
     m_staticMap.SetCustomFont(pFont);
     HICON hIcon = (HICON)LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDR_KEY_MAP_ICON),
@@ -235,7 +235,7 @@ void CSettingsDlg::CreateAddButton() {
 }
 
 void CSettingsDlg::CreateSaveButton() {
-    m_SaveButton.Create(_T("保 存"), WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, CRect(620, 40, 730, 80), this,
+    m_SaveButton.Create(_T("Save"), WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, CRect(620, 40, 730, 80), this,
         IDC_SETTINGS_BUTTON_OK);
     CFont* pFont = new CFont();
     pFont->CreateFont(24, 0, 0, 0, FW_BOLD, FALSE, FALSE, 0, DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
@@ -288,7 +288,7 @@ InputGroup CSettingsDlg::AddInputGroup(int yPosition) {
     group.pToggleOpenFlagButton->Create(_T(""), WS_CHILD | WS_VISIBLE | BS_AUTOCHECKBOX,
         CRect(470, yPosition, 470, yPosition + 20), this, id);
     group.pToggleOpenFlagButton->SetCheck(0);
-    m_OpenToolTip.AddTool(group.pToggleOpenFlagButton, _T("是否启用"));
+    m_OpenToolTip.AddTool(group.pToggleOpenFlagButton, _T(" enable this?"));
     group.isOpen = -1;
     id = IDC_GROUP_DELETE_BUTTON_BASE + offset;
     group.pDeleteButton = new CMFCDeleteButton();
@@ -729,7 +729,7 @@ void CSettingsDlg::OnBnClickedOk() {
     InputKeyValuesGroup inputKeyValuesGroup = LoadnputKeyValuesGroupData(false);
     bool success = m_HotkeyRegistrar.RegisterHotKeys(inputKeyValuesGroup);
     if (!success) {
-        MessageBoxUtil::Show(m_hWnd, L"全局快捷键注册失败", true);
+        MessageBoxUtil::Show(m_hWnd, L"hotkey registration failed", true);
         return;
     }
     configHandler.SaveData(inputKeyValuesGroup.ToString());

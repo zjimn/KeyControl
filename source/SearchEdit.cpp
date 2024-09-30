@@ -22,7 +22,7 @@ CSearchEdit::CSearchEdit()
 	m_nPointSize = 100;
 	m_Font.CreatePointFont(
 		m_nPointSize, m_strFaceName);
-	m_strGrayString = L"请输入文本";
+	m_strGrayString = L"please enter text";
 	m_nFocusStyle = FOCUS_DEFAULT;
 	m_bHover = false;
 	m_bTrack = true;

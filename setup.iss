@@ -1,4 +1,4 @@
-#define MyAppName "键控助手"
+#define MyAppName "KeyControl"
 #define MyAppEnName "KeyControl"
 #define MyAppVersion "1.0"
 #define MyAppExeName "KeyControl.exe"
@@ -19,7 +19,7 @@ LicenseFile=doc\license.txt
 InfoBeforeFile=doc\info_before_install.txt
 InfoAfterFile=doc\info_after_install.txt
 OutputDir=release
-OutputBaseFilename=键控助手安装包
+OutputBaseFilename=KeyControlInstaller
 SetupIconFile=res\app_logo.ico
 UninstallDisplayName={#MyAppName}
 UninstallDisplayIcon={app}\{#MyAppExeName}
@@ -32,7 +32,7 @@ VersionInfoVersion=1.0.0.0
 
 
 [Languages]
-Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
+Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: checkedonce
@@ -63,7 +63,7 @@ begin
   if RegKeyExists(HKEY_AUTO, 'Software\{#MyAppEnName}\{#MyAppAssocExt}\OpenWithProgids') and
             RegValueExists(HKEY_AUTO, 'Software\{#MyAppEnName}\{#MyAppAssocExt}\OpenWithProgids', '{#MyAppAssocKey}') then
   begin
-    MsgBox('检测到应用程序已安装，请先卸载现有版本后再进行安装', mbError, MB_OK);
+    MsgBox('An application is already installed. Please uninstall it before proceeding', mbError, MB_OK);
     Result := False;
   end
   else
@@ -89,7 +89,7 @@ begin
       strFileContent := Trim(strFileContent);
       if bRes then begin
          if StrToInt(strFileContent) > 0 then begin
-            if MsgBox(ExpandConstant('软件正在运行，点击“确定”将自动关闭软件并继续卸载'), mbConfirmation, MB_OKCANCEL) = IDOK then begin
+            if MsgBox(ExpandConstant('The software is running. Click "OK" to close it and uninstall'), mbConfirmation, MB_OKCANCEL) = IDOK then begin
              ShellExec('open', ExpandConstant('{cmd}'), strCmdKill, '', SW_HIDE, ewNoWait, ErrorCode);
              Result:= true;
             end else begin

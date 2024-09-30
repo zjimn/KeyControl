@@ -314,9 +314,9 @@ void CKeyControlDlg::CreateSettingAndQuitButton() {
         CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, _T("SimHei"));
     m_SettingsButton = new CMFCAdjustableIconButton();
     CMFCAdjustableIconButton* cancelButton = new CMFCAdjustableIconButton();
-    m_SettingsButton->Create(_T("   设定"), WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, CRect(596, 107, 723, 147), this,
+    m_SettingsButton->Create(_T("   Set"), WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, CRect(596, 107, 723, 147), this,
         IDC_BUTTON_SETTINGS);
-    cancelButton->Create(_T("   退出"), WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, CRect(596, 458, 723, 498), this, IDCANCEL);
+    cancelButton->Create(_T("   Quit"), WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, CRect(596, 458, 723, 498), this, IDCANCEL);
     m_SettingsButton->SetFont(font, 1);
     m_SettingsButton->SetTextColor(CColorSettings::MenuTextColor);
     m_SettingsButton->SetButtonTextMargin(40);
