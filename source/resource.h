@@ -1,0 +1,51 @@
+﻿#define IDC_MYICON                      2
+#define IDM_ABOUTBOX                    0x0010
+#define IDS_ABOUTBOX                    101
+#define IDD_KEY_CONTROL_DIALOG          102
+#define IDD_KEYCONTROL_DIALOG           102
+#define IDD_SETTINGS_SCROLLABLE_PANE_DIALOG      105
+#define IDS_APP_TITLE                   103
+#define IDR_MAINFRAME                   128
+#define WM_ITEM_CLICKED                 200
+#define WM_SEARCHICON_CLICKED           201
+#define IDC_STATIC_SEARCH               300
+#define ID_TRAY_OPEN                    400
+#define ID_TRAY_EXIT                    401
+#define ID_SEND_TRAY_MESSAGE            500
+#define ID_SEND_WINDOW_FRONT_MESSAGE    501
+#define IDC_EDIT_INPUT                  1000
+#define IDC_LISTBOX_WINDOWS             1001
+#define IDC_BUTTON_SETTINGS             1002
+#define ID_BUTTON_OK                    1003
+#define IDC_BUTTON2                     1003
+#define ID_BUTTON_CANCEL                1004
+#define IDD_SETTINGS_DIALOG             1005
+#define IDC_BUTTON_ADD                  1006
+#define IDC_BUTTON_DELETE               1007
+#define IDC_SETTINGS_BUTTON_OK          1010
+#define IDC_SETTINGS_BUTTON_CANCEL      1011
+#define IDS_HELLO                       2000
+#define IDC_TOGGLE_BUTTON_BASE          3000
+#define IDC_GROUP_DELETE_BUTTON_BASE    4000
+#define IDC_HIDDEN_FOCUS                10000
+#define IDC_EDIT_INPUT_BASE             21008
+#define IDC_KEY_MAP_ICON_BASE           30000
+#define IDR_SEARCH_ICON                 40000
+#define IDR_QUIT_ICON                   40001
+#define IDR_PLAY_ICON                   40002
+#define IDR_STOP_ICON                   40003
+#define IDR_SETTING_ICON                40004
+#define IDR_SETTING_FOR_DLG_ICON        40005
+#define IDR_RED_SETTING_ICON            40006
+#define IDR_KEY_MAP_ICON                40007
+#define IDR_ADD_ICON                    40008
+#define IDC_TITLE_STATIC_ID             40009
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NO_MFC                     1
+#define _APS_NEXT_RESOURCE_VALUE        136
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1008
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
